@@ -1,0 +1,239 @@
+<!-- partials/nav -->
+<!-- Loader -->
+<div id="preloader"><div id="status"><div class="spinner"></div></div></div>
+
+<div class="header-bg">
+    <!-- Navigation Bar-->
+    <header id="topnav">
+        <div class="topbar-main">
+            <div class="container-fluid">
+
+                <!-- Logo container-->
+                <div class="logo">
+                    <!-- Text Logo -->
+                    <a href="/" class="logo">
+                        FONIK
+                    </a>
+                    <!-- Image Logo -->
+                    <!-- <a href="index.html" class="logo">
+                        <img src="images/logo-sm.png" alt="" height="22" class="logo-small">
+                        <img src="images/logo.png" alt="" height="24" class="logo-large">
+                    </a> -->
+
+                </div>
+                <!-- End Logo container-->
+
+
+                <div class="menu-extras topbar-custom">
+
+                    <ul class="list-inline float-right mb-0">
+                        
+                        <!-- notification-->
+                        <li class="list-inline-item dropdown notification-list">
+                            <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                                <i class="ti-bell noti-icon"></i>
+                                <span class="badge badge-info badge-pill noti-icon-badge">3</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-menu-lg">
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5>Notification (3)</h5>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                    <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                    <p class="notify-details"><b>Your order is placed</b><small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                    <p class="notify-details"><b>New Message received</b><small class="text-muted">You have 87 unread messages</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info"><i class="mdi mdi-martini"></i></div>
+                                    <p class="notify-details"><b>Your item is shipped</b><small class="text-muted">It is a long established fact that a reader will</small></p>
+                                </a>
+
+                                <!-- All-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    View All
+                                </a>
+
+                            </div>
+                        </li>
+                        <!-- User-->
+                        <li class="list-inline-item dropdown notification-list">
+                            <a class="nav-link dropdown-toggle arrow-none waves-effect nav-user" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="false" aria-expanded="false">
+                                <img src="images/users/avatar-1.jpg" alt="user" class="rounded-circle">
+                                <span class="ml-1">Denish J. <i class="mdi mdi-chevron-down"></i> </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                <a class="dropdown-item" href="#"><i class="dripicons-user text-muted"></i> Profile</a>
+                                <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted"></i> My Wallet</a>
+                                <a class="dropdown-item" href="#"><span class="badge badge-success pull-right m-t-5">5</span><i class="dripicons-gear text-muted"></i> Settings</a>
+                                <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted"></i> Lock screen</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted"></i> Logout</a>
+                            </div>
+                        </li>
+                        <li class="menu-item list-inline-item">
+                            <!-- Mobile menu toggle-->
+                            <a class="navbar-toggle nav-link">
+                                <div class="lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <!-- End mobile menu toggle-->
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- end menu-extras -->
+
+                <div class="clearfix"></div>
+
+            </div> <!-- end container -->
+        </div>
+        <!-- end topbar-main -->
+
+        <!-- MENU Start -->
+        <div class="navbar-custom">
+            <div class="container-fluid">
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu">
+
+                        <li class="has-submenu">
+                            <a href="/"><i class="dripicons-device-desktop"></i>User Dashboard</a>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-mail"></i>Send SMS <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu has-submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="#" id="quick_sms_page">Quick SMS</a></li>
+                                        <li><a href="#" id="bulk_sms_page">Bulk Push</a></li>
+                                        <li><a href="#" id="group_sms_page">Group SMS</a></li>
+                                        <li><a href="#" id="customised_sms_page">Customised SMS</a></li>
+                                        <li><a href="#" id="media_sms_page">Media SMS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-to-do"></i>Phone Book <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                              <li>
+                                  <ul>
+                                      <li><a href="#" id="add_group_page">Add Group</a></li>
+                                      <li><a href="#" id="add_contacts_page">Add Contacts</a></li>
+                                      <li><a href="#" id="manage_groups_page">Manage Groups</a></li>
+                                      <li><a href="#" id="manage_contacts_page">Manage Contacts</a></li>
+									  <li><a href="#" id="test_numbers_page">Test Numbers</a></li>
+									  <li><a href="#" id="blacklist_numbers_page">Blacklist Numbers </a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-document"></i>Templates<i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="add_templates_page">Add Templates</a></li>
+                                <li><a href="#" id="manage_templates_page">Manage Templates</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-suitcase"></i>Sender ID<i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="add_sender_id_page">Add Sender ID</a></li>
+                                <li><a href="#" id="manage_sender_id_page">Manage Sender ID</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-clipboard"></i>Reports <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="camp_dashboard">Campaign Dashboard</a></li>
+                                <li><a href="#" id="sched_campaign">Scheduled Campaign</a></li>
+                                <li><a href="#" id="mis_stats">MIS Statistics</a></li>
+                                <li><a href="#" id="deli_reports">Delivery Reports</a></li>
+                                <li><a href="#" id="statistics_page">Statistics</a></li>
+                                <li><a href="#" id="delivery_logs_page">Delivery Logs</a></li>
+                            </ul>
+                        </li>
+						<li class="has-submenu">
+                            <a href="#"><i class="dripicons-checklist"></i>History <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="transactions_page">Transactions</a></li>
+                                <li><a href="#" id="event_logs_page">Event Logs</a></li>
+                            </ul>
+						</li>
+						<li class="has-submenu">
+                            <a href="#"><i class="dripicons-article"></i>Keywords <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="add_keywords_page">Add Keywords</a></li>
+								<li><a href="#" id="manage_keywords_page">Manage Keywords</a></li>
+								<li><a href="#" id="keyword_reports_page">Keyword Reports</a></li>
+                            </ul>
+						</li>
+						<li class="has-submenu">
+                            <a href="#"><i class="dripicons-gear"></i>API <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="http_page">HTTP</a></li>
+								<li><a href="#" id="xml_page">XML</a></li>
+								<li><a href="#" id="json_page">JSON</a></li>
+								<li><a href="#" id="smpp_page">SMPP</a></li>
+								<li><a href="#" id="xl_plugin_page">XL Plugin</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-user-group"></i>User Management <i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="manage_cust">Manage Customer</a></li>
+                                <li><a href="#" id="manage_account">Manage Account</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#"><i class="dripicons-network-4"></i>Routing<i class="mdi mdi-chevron-down mdi-drop"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#" id="create_route">Create Routing</a></li>
+                                <li><a href="#" id="create_rule">Create Rule</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- End navigation menu -->
+                </div> <!-- end #navigation -->
+            </div> <!-- end container -->
+        </div> <!-- end navbar-custom -->
+    </header>
+    <!-- End Navigation Bar-->
+
+    <div class="container-fluid">
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <!-- <form class="float-right app-search">
+                        <input type="text" placeholder="Search..." class="form-control">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form> -->
+                    <h4 class="page-title" id="page_title"> <i class="dripicons-calendar"></i> <%=title%></h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+
+    </div>
+</div>
